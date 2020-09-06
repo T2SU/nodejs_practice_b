@@ -12,17 +12,7 @@ const server = http.createServer((req, res) => {
         body.push(chuck);
     }).on('end', () => {
         body = Buffer.concat(body).toString();
-
-        res.on('error', (err) => {
-            console.error(err);
-        });
-
-        res.writeHead(200, {'Content-Type': 'application/json'});
-
-        const resBody = { headers, method, url, body };
-
-        res.write(JSON.stringify(resBody));
-        res.end();
+        res.end(body);
     });
 });
 
