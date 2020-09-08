@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_practice_b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T2SU/nodejs_practice_b.git"
+  },
+  "author": "TSU",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/T2SU/nodejs_practice_b/issues"
+  },
+  "homepage": "https://github.com/T2SU/nodejs_practice_b#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
