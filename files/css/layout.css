@@ -1,0 +1,24 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+
+body {
+    padding-top: 16px;
+    background-color: black;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-style: 'normal';
+    font-weight: 800;
+    text-align: center;
+    color: white;
+}
+
+.header_splitter {
+    width: 70%;
+    border: 1px solid;
+    border-bottom: 0px;
+}
+
+.sub_splitter {
+    width: 50%;
+    border: 1px #cbcbcb dotted;
+    border-bottom: 0px;
+}
